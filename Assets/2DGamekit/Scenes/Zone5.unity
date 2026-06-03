@@ -2004,6 +2004,16 @@ MonoBehaviour:
     tag: MusicBoss
     action: 3
     parameter: BossStage
+    targetValue: 1
+  - emitter: {fileID: 0}
+    tag: Music02
+    action: 2
+    parameter: 
+    targetValue: 0
+  - emitter: {fileID: 0}
+    tag: MusicBoss
+    action: 1
+    parameter: 
     targetValue: 0
 --- !u!1 &211741460
 GameObject:
@@ -52157,7 +52167,7 @@ PrefabInstance:
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
       propertyPath: audioSettings.Array.size
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
@@ -52172,17 +52182,17 @@ PrefabInstance:
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
       propertyPath: audioSettings.Array.data[2].tag
-      value: Music
+      value: Music02
       objectReference: {fileID: 0}
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
       propertyPath: audioSettings.Array.data[3].tag
-      value: Music
+      value: Music02
       objectReference: {fileID: 0}
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
       propertyPath: audioSettings.Array.data[4].tag
-      value: Ambiance
+      value: Music
       objectReference: {fileID: 0}
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
@@ -52202,12 +52212,12 @@ PrefabInstance:
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
       propertyPath: audioSettings.Array.data[3].action
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
       propertyPath: audioSettings.Array.data[4].action
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
@@ -52222,12 +52232,12 @@ PrefabInstance:
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
       propertyPath: audioSettings.Array.data[3].parameter
-      value: 
+      value: Progress 2
       objectReference: {fileID: 0}
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
       propertyPath: audioSettings.Array.data[4].parameter
-      value: WindStrength
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
@@ -52247,6 +52257,11 @@ PrefabInstance:
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
       propertyPath: audioSettings.Array.data[3].targetValue
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
+        type: 3}
+      propertyPath: audioSettings.Array.data[4].targetValue
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8283495161900147265, guid: 5e02d266c3b0145ccad01d32166fc7b1,
@@ -69539,13 +69554,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
+      propertyPath: bossMusic
+      value: MusicBoss
+      objectReference: {fileID: 0}
+    - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
+        type: 3}
       propertyPath: stage1Value
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: stage2Value
-      value: 0
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
+        type: 3}
+      propertyPath: stage3Value
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
@@ -69555,12 +69580,12 @@ PrefabInstance:
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossDeathValue
-      value: 0
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: stageParameter
-      value: 
+      value: BossStage
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796895, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}

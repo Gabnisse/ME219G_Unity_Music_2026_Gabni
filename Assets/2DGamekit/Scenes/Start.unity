@@ -28953,36 +28953,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 110158806593295546, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
-        type: 3}
-      propertyPath: EventPlayTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 110158806593295546, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
-        type: 3}
-      propertyPath: EventReference.Path
-      value: event:/Music/MenyMusic
-      objectReference: {fileID: 0}
-    - target: {fileID: 110158806593295546, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
-        type: 3}
-      propertyPath: EventReference.Guid.Data1
-      value: 1682508190
-      objectReference: {fileID: 0}
-    - target: {fileID: 110158806593295546, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
-        type: 3}
-      propertyPath: EventReference.Guid.Data2
-      value: 1187493911
-      objectReference: {fileID: 0}
-    - target: {fileID: 110158806593295546, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
-        type: 3}
-      propertyPath: EventReference.Guid.Data3
-      value: 1458673331
-      objectReference: {fileID: 0}
-    - target: {fileID: 110158806593295546, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
-        type: 3}
-      propertyPath: EventReference.Guid.Data4
-      value: -1545168944
-      objectReference: {fileID: 0}
     - target: {fileID: 4318290237554146964, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
       propertyPath: m_Name
@@ -29046,22 +29016,22 @@ PrefabInstance:
     - target: {fileID: 5158617837186310920, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
       propertyPath: EventReference.Guid.Data1
-      value: 1682508190
+      value: -24609694
       objectReference: {fileID: 0}
     - target: {fileID: 5158617837186310920, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
       propertyPath: EventReference.Guid.Data2
-      value: 1187493911
+      value: 1176459900
       objectReference: {fileID: 0}
     - target: {fileID: 5158617837186310920, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
       propertyPath: EventReference.Guid.Data3
-      value: 1458673331
+      value: -486517850
       objectReference: {fileID: 0}
     - target: {fileID: 5158617837186310920, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
       propertyPath: EventReference.Guid.Data4
-      value: -1545168944
+      value: -1914335075
       objectReference: {fileID: 0}
     - target: {fileID: 7484880938483047845, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
@@ -29089,7 +29059,7 @@ PrefabInstance:
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
       propertyPath: audioSettings.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8283495161900147264, guid: 5e02d266c3b0145ccad01d32166fc7b1,
         type: 3}
