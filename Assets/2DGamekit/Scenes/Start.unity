@@ -28955,6 +28955,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 110158806593295546, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
+      propertyPath: EventPlayTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 110158806593295546, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: EventReference.Path
+      value: event:/Music/MenyMusic
+      objectReference: {fileID: 0}
+    - target: {fileID: 110158806593295546, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
       propertyPath: EventReference.Guid.Data1
       value: 1682508190
       objectReference: {fileID: 0}
