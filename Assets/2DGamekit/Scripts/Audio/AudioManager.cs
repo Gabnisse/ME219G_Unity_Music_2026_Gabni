@@ -61,7 +61,8 @@ public class AudioManager : MonoBehaviour
     [Header("Stingers")]
     [SerializeField] private EventReference stingerKeyPickup;
     [SerializeField] private EventReference stingerWeaponPickup;
-        
+    [SerializeField] private EventReference playerDeath;
+
     [HideInInspector]
     public bool combatState;
     private bool timerRunning;
@@ -236,6 +237,16 @@ public class AudioManager : MonoBehaviour
             return;
         }
         RuntimeManager.PlayOneShot(playerHurt, transform.position);
+    }
+
+    public void PlayDeath()
+    {
+        if (playerDeath.IsNull)
+        {
+            Debug.LogWarning("Fmod event not found: playerDeath");
+            return;
+        }
+        RuntimeManager.PlayOneShot(playerDeath);
     }
 
     public void PlayDestroy(GameObject destroyObject)
