@@ -430,13 +430,6 @@ MonoBehaviour:
       Data3: 256784558
       Data4: 1281280920
     Path: event:/Player/Player_Damage_Generic
-  playerDeath:
-    Guid:
-      Data1: 773800427
-      Data2: 1182647672
-      Data3: -1843407977
-      Data4: -316554803
-    Path: event:/Music/Stingers/DeathStinger
   wallDestroy:
     Guid:
       Data1: -827916814
@@ -543,6 +536,20 @@ MonoBehaviour:
       Data4: 57595475
     Path: event:/Music/Stingers/KeyStinger
   stingerWeaponPickup:
+    Guid:
+      Data1: -4719890
+      Data2: 1140982750
+      Data3: -1059156580
+      Data4: -274274748
+    Path: event:/Music/Stingers/PuzzleStinger
+  playerDeath:
+    Guid:
+      Data1: 773800427
+      Data2: 1182647672
+      Data3: -1843407977
+      Data4: -316554803
+    Path: event:/Music/Stingers/DeathStinger
+  stingerPuzzle:
     Guid:
       Data1: -4719890
       Data2: 1140982750

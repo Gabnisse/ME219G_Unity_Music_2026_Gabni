@@ -62,6 +62,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private EventReference stingerKeyPickup;
     [SerializeField] private EventReference stingerWeaponPickup;
     [SerializeField] private EventReference playerDeath;
+    [SerializeField] private EventReference stingerPuzzle;
 
     [HideInInspector]
     public bool combatState;
@@ -247,6 +248,16 @@ public class AudioManager : MonoBehaviour
             return;
         }
         RuntimeManager.PlayOneShot(playerDeath);
+    }
+
+    public void PlayPuzzle()
+    {
+        if (stingerPuzzle.IsNull)
+        {
+            Debug.LogWarning("Fmod event not found: stingerPuzzle");
+            return;
+        }
+        RuntimeManager.PlayOneShot(stingerPuzzle);
     }
 
     public void PlayDestroy(GameObject destroyObject)

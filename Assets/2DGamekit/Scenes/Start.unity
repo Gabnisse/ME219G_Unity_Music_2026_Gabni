@@ -15550,7 +15550,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8c216d103379474eb95ad8002ef9d2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vcaName: 
+  vcaName: SFXVCA
 --- !u!114 &1355817757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27271,7 +27271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8c216d103379474eb95ad8002ef9d2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vcaName: 
+  vcaName: MusicVCA
 --- !u!114 &1707485453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28522,7 +28522,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8c216d103379474eb95ad8002ef9d2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vcaName: 
+  vcaName: MasterVCA
 --- !u!114 &2037411741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29036,12 +29036,12 @@ PrefabInstance:
     - target: {fileID: 7484880938483047845, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
       propertyPath: OverrideMaxDistance
-      value: 20
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7484880938483047845, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
       propertyPath: OverrideMinDistance
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
